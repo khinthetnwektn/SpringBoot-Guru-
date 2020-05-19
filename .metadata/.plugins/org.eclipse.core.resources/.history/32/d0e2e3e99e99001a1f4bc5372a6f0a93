@@ -75,13 +75,6 @@ public class Recipe {
 	public void setDirectons(String directons) {
 		this.directons = directons;
 	}
-	
-	public Set<Ingredient> getIngredients() {
-		return ingredients;
-	}
-	public void setIngredients(Set<Ingredient> ingredients) {
-		this.ingredients = ingredients;
-	}
 	public Byte[] getImage() {
 		return image;
 	}

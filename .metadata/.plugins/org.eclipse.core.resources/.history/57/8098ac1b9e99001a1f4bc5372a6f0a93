@@ -1,0 +1,16 @@
+package com.test.recipeProject.domain;
+
+import java.math.BigDecimal;
+
+import javax.persistence.Entity;
+
+@Entity
+public class Ingredient {
+	
+	private String description;
+	private BigDecimal amount;
+	
+	private Recipe recipe;
+	
+	
+}
