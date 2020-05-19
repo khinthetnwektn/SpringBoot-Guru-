@@ -1,0 +1,9 @@
+package com.test.recipeProject.domain;
+
+import javax.persistence.*;
+
+@Entity
+public class UnitOfMeasure {
+	
+	private String description;
+}
