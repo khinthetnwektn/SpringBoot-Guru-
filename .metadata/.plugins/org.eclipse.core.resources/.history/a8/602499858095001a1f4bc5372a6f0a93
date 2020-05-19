@@ -1,0 +1,5 @@
+package com.springStudy.petClicnic.controller;
+
+public class WelcomeController {
+
+}
