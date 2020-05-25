@@ -1,0 +1,5 @@
+package com.test.recipeProject.controller;
+
+public class IndexController {
+
+}

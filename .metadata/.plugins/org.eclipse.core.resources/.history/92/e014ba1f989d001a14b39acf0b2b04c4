@@ -1,0 +1,25 @@
+package com.test.recipeProject.services;
+
+import java.util.Set;
+
+import com.test.recipeProject.domain.Recipe;
+import com.test.recipeProject.repositories.RecipeRepository;
+
+public class RecipeServiceImpl implements RecipeService{
+	
+	private final RecipeRepository recipeRepository;	
+
+	public RecipeServiceImpl(RecipeRepository recipeRepository) {
+		super();
+		this.recipeRepository = recipeRepository;
+	}
+
+
+
+	@Override
+	public Set<Recipe> getRecipes() {
+		return null;
+	}
+	
+
+}

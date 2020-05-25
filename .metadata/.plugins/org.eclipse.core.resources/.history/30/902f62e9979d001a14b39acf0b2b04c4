@@ -1,0 +1,10 @@
+package com.test.recipeProject.services;
+
+import com.test.recipeProject.repositories.RecipeRepository;
+
+public class RecipeServiceImpl implements RecipeService{
+	
+	private final RecipeRepository recipeRepository;
+	
+
+}

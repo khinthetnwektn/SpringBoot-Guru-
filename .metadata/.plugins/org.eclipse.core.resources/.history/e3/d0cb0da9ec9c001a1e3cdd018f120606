@@ -1,0 +1,19 @@
+package com.test.recipeProject.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+import com.test.recipeProject.domain.UnitOfMeasure;
+import com.test.recipeProject.repositories.CategoryRepository;
+
+@Controller
+public class IndexController {
+	
+	private CategoryRepository categoryRepository;
+	private UnitOfMeasure unitofmeasureRepository;
+
+	@RequestMapping({"", "/", "/index"})
+	public String getIndex() {
+		return "index";
+	}
+}

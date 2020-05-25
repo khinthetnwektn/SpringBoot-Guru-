@@ -1,0 +1,5 @@
+package com.test.recipeProject.services;
+
+public class RecipeServiceImpl implements RecipeService{
+
+}

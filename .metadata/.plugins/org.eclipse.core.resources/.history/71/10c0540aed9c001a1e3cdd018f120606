@@ -1,0 +1,25 @@
+package com.test.recipeProject.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+import com.test.recipeProject.repositories.CategoryRepository;
+import com.test.recipeProject.repositories.UnitOfMeasureRepository;
+
+@Controller
+public class IndexController {
+	
+	private CategoryRepository categoryRepository;
+	private UnitOfMeasureRepository unitofmeasureRepository;	
+
+	public IndexController(CategoryRepository categoryRepository, UnitOfMeasureRepository unitofmeasureRepository) {
+		this.categoryRepository = categoryRepository;
+		this.unitofmeasureRepository = unitofmeasureRepository;
+	}
+
+	@RequestMapping({"", "/", "/index"})
+	public String getIndex() {
+		Optional<Category> categoryOptional = categoryRepository.findByDescription("America");
+		return "index";
+	}
+}
