@@ -2454,3 +2454,14 @@ org.eclipse.jface.text.BadLocationException: null
 2020-05-28 08:43:31,263 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
 2020-05-28 08:43:31,266 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2020-05-28 08:43:31,266 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Learning\Spring Framework5 (Guru)\Spring Guru WorkSpace\RecipeProject\RecipeProject\src\test\resources
+2020-06-19 08:59:40,141 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2020-06-19 09:00:27,120 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-19 09:00:27,128 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-06-19 09:00:27,164 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2020-06-19 09:00:27,204 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-19 09:00:27,204 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Learning\Spring Framework5 (Guru)\Spring Guru WorkSpace\RecipeProject\RecipeProject\src\test\resources
+2020-06-19 09:00:34,419 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-19 09:00:34,421 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-06-19 09:00:34,434 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 22 resources
+2020-06-19 09:00:34,463 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-19 09:00:34,463 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Learning\Spring Framework5 (Guru)\Spring Guru WorkSpace\petClicnic\petClicnic\src\test\resources
